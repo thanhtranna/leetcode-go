@@ -1,7 +1,6 @@
 package leetcode
 
 import (
-	"fmt"
 	"math"
 	"strings"
 )
@@ -39,7 +38,6 @@ func clean(s string) (sign int, abs string) {
 }
 
 func convert(sign int, absStr string) int {
-	fmt.Println(absStr)
 	abs := 0
 
 	for _, b := range absStr {
