@@ -1,6 +1,8 @@
 package leetcode
 
-import "strconv"
+import (
+	"strconv"
+)
 
 func isPalindrome(x int) bool {
 	if x < 0 {

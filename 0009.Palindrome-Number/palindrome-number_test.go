@@ -51,6 +51,6 @@ func Test_Problem0009(t *testing.T) {
 
 	for _, q := range qs {
 		a, p := q.a, q.p
-		ast.Equal(a.one, isPalindrome(p.one), "Has:%v", p)
+		ast.Equal(a.one, isPalindrome(p.one), "input:%v", p)
 	}
 }
